@@ -1,0 +1,8 @@
+C:\Users\pduc0\source\repos\CinemaReservation\obj\Release\CinemaReservation.csproj.AssemblyReference.cache
+C:\Users\pduc0\source\repos\CinemaReservation\obj\Release\CinemaReservation.BookingForm.resources
+C:\Users\pduc0\source\repos\CinemaReservation\obj\Release\CinemaReservation.LoginForm.resources
+C:\Users\pduc0\source\repos\CinemaReservation\obj\Release\CinemaReservation.MainForm.resources
+C:\Users\pduc0\source\repos\CinemaReservation\obj\Release\CinemaReservation.RegisterForm.resources
+C:\Users\pduc0\source\repos\CinemaReservation\obj\Release\CinemaReservation.SeatSelectionForm.resources
+C:\Users\pduc0\source\repos\CinemaReservation\obj\Release\CinemaReservation.csproj.GenerateResource.cache
+C:\Users\pduc0\source\repos\CinemaReservation\obj\Release\CinemaReservation.csproj.CoreCompileInputs.cache
