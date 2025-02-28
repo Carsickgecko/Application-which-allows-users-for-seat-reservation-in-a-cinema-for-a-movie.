@@ -33,7 +33,7 @@ namespace CinemaReservation
 
         public static class GlobalData
         {
-            // Biến này sẽ lưu tên phim đã được chọn
+            
             public static string ok { get; set; }
             public static string nameout { get; set; }
 

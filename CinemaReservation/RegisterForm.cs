@@ -16,7 +16,7 @@ namespace CinemaReservation
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
-            // Kiểm tra các trường bắt buộc không được để trống
+            
             if (string.IsNullOrWhiteSpace(txtUsername.Text) ||
                 string.IsNullOrWhiteSpace(txtName.Text) ||
                 string.IsNullOrWhiteSpace(txtAge.Text) ||
@@ -27,21 +27,21 @@ namespace CinemaReservation
                 return;
             }
 
-            // Kiểm tra độ dài của Username: từ 3 đến 20 ký tự
+            
             if (txtUsername.Text.Length < 3 || txtUsername.Text.Length > 20)
             {
                 MessageBox.Show("Username must be between 3 and 20 characters.");
                 return;
             }
 
-            // Kiểm tra độ dài của Name: từ 3 đến 20 ký tự
+            
             if (txtName.Text.Length < 3 || txtName.Text.Length > 20)
             {
                 MessageBox.Show("Name must be between 3 and 20 characters.");
                 return;
             }
 
-            // Kiểm tra điều kiện của Age: phải là số nguyên và nằm trong khoảng hợp lệ (ví dụ: từ 1 đến 120)
+            
             int age;
             if (!int.TryParse(txtAge.Text, out age) || age < 1 || age > 120)
             {
@@ -49,14 +49,14 @@ namespace CinemaReservation
                 return;
             }
 
-            // Kiểm tra độ dài của Password: từ 6 đến 10 ký tự
+            
             if (txtPassword.Text.Length < 6 || txtPassword.Text.Length > 10)
             {
                 MessageBox.Show("Password must be between 6 and 10 characters.");
                 return;
             }
 
-            // Kiểm tra xem Password có khớp với Confirm Password không
+            
             if (txtPassword.Text != txtConfirmPassword.Text)
             {
                 MessageBox.Show("Passwords do not match!");
@@ -67,7 +67,7 @@ namespace CinemaReservation
             {
                 conn.Open();
 
-                // Kiểm tra xem Username đã tồn tại trong cơ sở dữ liệu hay chưa
+                
                 string checkUserQuery = "SELECT COUNT(*) FROM Users WHERE Username = @Username";
                 using (SqlCommand checkCmd = new SqlCommand(checkUserQuery, conn))
                 {
@@ -80,7 +80,7 @@ namespace CinemaReservation
                     }
                 }
 
-                // Nếu Username chưa tồn tại, tiến hành đăng ký người dùng mới
+                
                 string query = "INSERT INTO Users (Username, Name, Age, Password) VALUES (@Username, @Name, @Age, @Password)";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {

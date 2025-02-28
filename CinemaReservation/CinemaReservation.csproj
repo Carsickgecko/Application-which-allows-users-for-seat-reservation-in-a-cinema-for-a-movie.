@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AC5295F5-DC63-447C-A494-AE31865B276F}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>CinemaReservation</RootNamespace>
     <AssemblyName>CinemaReservation</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>

@@ -14,23 +14,17 @@ namespace CinemaReservation
             InitializeComponent();
            
         }
-
-        //public static class GlobalData
-        //{
-        //    // Biến này sẽ lưu tên phim đã được chọn
-        //    public static string ok { get; set; }
-        //}
         private void lvMovies_ItemActivate(object sender, EventArgs e)
         {
             if (lvMovies.SelectedItems.Count > 0)
             {
-                // Lấy tên phim từ item được chọn (giả sử tên phim nằm ở cột đầu tiên)
+                
                 string movieName = lvMovies.SelectedItems[0].Text;
 
-                // Gán tên phim vào biến toàn cục ok
+                
                 MethodUsing.GlobalData.ok = movieName;
 
-                // Mở form InformationBook (ví dụ)
+               
                 InformationBook infoForm = new InformationBook();
                 infoForm.Show();
             }

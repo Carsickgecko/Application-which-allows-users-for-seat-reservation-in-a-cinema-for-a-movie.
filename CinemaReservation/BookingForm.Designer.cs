@@ -9,13 +9,13 @@
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Avengers: Endgame", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "120 Mins", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "Captain America: Brave New World ",
             "90 Mins"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "Spider-Man: No Way HomeSpider-Man: No Way Home",
             "180 Mins"}, -1, System.Drawing.Color.Empty, System.Drawing.Color.Empty, new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))));
             this.lvMovies = new System.Windows.Forms.ListView();
@@ -34,13 +34,13 @@
             this.lvMovies.FullRowSelect = true;
             this.lvMovies.HideSelection = false;
             this.lvMovies.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem4,
-            listViewItem5,
-            listViewItem6});
-            this.lvMovies.Location = new System.Drawing.Point(4, 71);
+            listViewItem1,
+            listViewItem2,
+            listViewItem3});
+            this.lvMovies.Location = new System.Drawing.Point(4, 72);
             this.lvMovies.Margin = new System.Windows.Forms.Padding(4);
             this.lvMovies.Name = "lvMovies";
-            this.lvMovies.Size = new System.Drawing.Size(614, 177);
+            this.lvMovies.Size = new System.Drawing.Size(614, 167);
             this.lvMovies.TabIndex = 0;
             this.lvMovies.UseCompatibleStateImageBehavior = false;
             this.lvMovies.View = System.Windows.Forms.View.Details;
